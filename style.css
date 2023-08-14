@@ -1,0 +1,112 @@
+/* CSS variables */
+:root {
+  --border-radius: 8px;
+}
+
+/* Basic Sections */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+}
+
+header {
+  position: sticky;
+  z-index: 2;
+  width: 100%;
+  background-color: #c5c5c5;
+}
+
+main {
+  min-height: calc(100vh - 60px);
+}
+
+#cards-with-fade-in-layer-effect {
+  margin: 48px 24px;
+}
+
+#cards-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #b1c8f3;
+  /* gap: 1rem */
+}
+
+.card-container {
+  position: relative;
+  background-color: antiquewhite;
+  margin: 1rem;
+  /* padding: 1rem; */
+  border-radius: var(--border-radius);
+  width: 400px;
+  height: 300px;
+}
+
+.card-image{
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: var(--border-radius);
+
+}
+
+.card-overlay{
+  /* display: none; */
+  z-index: 999;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 0 0 var(--border-radius) var(--border-radius);
+  background-color: red;
+  opacity: 0.7;
+  color:white;
+  width: 100%;
+  /* height: 100%; */
+  padding: 1rem;
+}
+
+.card-overlay:hover{
+display: block;
+position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: blue;
+}
+
+.tag-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 1rem 0;
+}
+
+.tag {
+  border: 2px solid white;
+  border-radius: 12px;
+  padding: 2px 8px;
+}
+footer {
+  text-align: center;
+  height: 60px;
+  background-color: #c5c5c5;
+}
+
+/* Breakpoints */
+@media screen and (min-width: 1171px) {
+}
+@media screen and (max-width: 1170px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 500px) {
+}
