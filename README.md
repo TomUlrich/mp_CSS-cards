@@ -3,6 +3,8 @@
 
 ## Basic template
 
+- [Slide in Overlay from the Bottom](https://www.w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_slidebottom)
+
 - [Card hover effect](https://codepen.io/t_afif/pen/PoBQRmj) (turn it into click effect)
 
 ## Further 
